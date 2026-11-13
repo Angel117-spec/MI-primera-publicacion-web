@@ -1,0 +1,378 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: Trauma Team Medical Center (Clínica Médica)
+  ----------------------------------------------------------------------
+  * Estudiante: Angel Eliezer de la Crúz Márquez
+  * Grupo: 5A PRO VESP  
+  * Actividad: Portal de Servicios Médicos y Citas (Con barra superior y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica Trauma Team - Portal Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR DE CONTACTO -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">📞 734 000 0000 (Urgencias 24/7)</span>
+                <span class="top-item whatsapp">💬 Agenda por <strong>WhatsApp</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <img src="img/logo.png" alt="Clínica Trauma Team" class="brand-logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#oferta">Especialidades</a>
+                <a href="login.html" class="btn-nav-login">Portal de Pacientes</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON COLLAGE DE IMÁGENES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos, Botón y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡ATENCIÓN MÉDICA ESPECIALIZADA!</span>
+                <h1>Salud y Bienestar con Calidad Profesional</h1>
+                <p>Cuidamos de ti y de tu familia con médicos certificados, tecnología de punta y un servicio humano, cálido y seguro las 24 horas.</p>
+                
+                <div class="hero-cta-box">
+                    <a href="login.html" class="btn-orange">Agendar Consulta →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Urgencias médicas 24/7</span>
+                        <span>✓ Laboratorio clínico propio</span>
+                        <span>✓ Farmacia y rayos X</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Collage de Imágenes -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="Médico especialista">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=300&q=80" alt="Laboratorio clínico">
+                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=300&q=80" alt="Atención hospitalaria">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE ESPECIALIDADES MÉDICAS -->
+    <section id="oferta" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Nuestras Especialidades Médicas</h2>
+                <p>Contamos con profesionales expertos en distintas áreas de la salud para tu cuidado integral</p>
+            </div>
+
+            <div class="careers-grid">
+                
+                <!-- Especialidad 1 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=500&q=80" alt="Medicina General">
+                    </div>
+                    <div class="career-content">
+                        <h3>Medicina General y Preventiva</h3>
+                        <p>Consulta de primera vez, control de enfermedades crónicas y chequeos médicos generales para toda la familia.</p>
+                    </div>
+                </div>
+
+                <!-- Especialidad 2 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=500&q=80" alt="Pediatría">
+                    </div>
+                    <div class="career-content">
+                        <h3>Pediatría</h3>
+                        <p>Cuidado integral del crecimiento, desarrollo, vacunación y salud general de tus hijas e hijos desde el nacimiento.</p>
+                    </div>
+                </div>
+
+                <!-- Especialidad 3 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=500&q=80" alt="Cardiología">
+                    </div>
+                    <div class="career-content">
+                        <h3>Cardiología</h3>
+                        <p>Diagnóstico, prevención y tratamiento especializado de las afecciones del corazón y el sistema circulatorio.</p>
+                    </div>
+                </div>
+
+                <!-- Especialidad 4 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=500&q=80" alt="Laboratorio Clínico">
+                    </div>
+                    <div class="career-content">
+                        <h3>Laboratorio y Análisis</h3>
+                        <p>Pruebas de sangre, química sanguínea, estudios especiales y resultados confiables con entrega rápida.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE MÉDICOS ESPECIALISTAS (CARRUSEL) -->
+    <section class="teachers-section">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">EXCELENCIA MÉDICA</span>
+                    <h2>Nuestro Cuerpo Médico</h2>
+                    <p>Especialistas altamente capacitados con amplia trayectoria. Utiliza los botones o arrastra para conocer a nuestros doctores:</p>
+                </div>
+                <!-- Botones funcionales con IDs -->
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <!-- Contenedor de las tarjetas de doctores -->
+            <div class="teachers-grid" id="teachers-track">
+                
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80" alt="Doctor">
+                    <div class="teacher-info">
+                        <h3>Dr. Roberto Garza</h3>
+                        <p>Especialista en Medicina Interna y Director Médico de la Clínica.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/dramaria.jpg">
+                    <div class="teacher-info">
+                        <h3>Dra. María Elena Solís</h3>
+                        <p>Pediatra Neonatóloga con más de 12 años de experiencia clínica.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80" alt="Doctor">
+                    <div class="teacher-info">
+                        <h3>Dr. Alejandro Morales</h3>
+                        <p>Cardiólogo Clínico e Intervencionista por el Hospital General.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80" alt="Doctora">
+                    <div class="teacher-info">
+                        <h3>Dra. Sofía Navarro</h3>
+                        <p>Especialista en Ginecología, Obstetricia y Salud Materna.</p>
+                    </div>
+                </div> 
+
+                <div class="teacher-card">
+                    <img src="img/gaona.jpg">
+                    <div class="teacher-info">
+                        <h3>Dr. Gaona Castro</h3>
+                        <p>Clinico Especialista en Salud de los Malware .</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/sangaona.jpeg">
+                    <div class="teacher-info">
+                        <h3>Dr. Eduardo Baltazar</h3>
+                        <p>Especialista en dar Esperanza a los Pacientes.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON FORMULARIO DE CITAS / INFORMES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <div class="hero-text-side">
+                <span class="hero-tag">RESERVA TU ESPACIO</span>
+                <h1 class="hero-title-custom">¿Necesitas una cita médica?</h1>
+                <p class="hero-desc-custom">
+                    Llena el formulario y nos pondremos en contacto contigo de inmediato para confirmar tu horario de consulta o resolver tus dudas.
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    Beneficios en nuestra clínica:
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Atención médica puntual y sin largas esperas</span>
+                    <span>✓ Precios accesibles y planes de salud familiares</span>
+                    <span>✓ Estacionamiento privado y área infantil</span>
+                    <span>✓ Farmacia surtida y laboratorio en el mismo lugar</span>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Tarjeta con Formulario de Citas -->
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Solicitar Cita o Informes
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellido" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono de contacto" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="tipo_cita" required class="form-control-select">
+                                <option value="">Selecciona el servicio</option>
+                                <option value="consulta">Consulta Médica General</option>
+                                <option value="especialidad">Consulta con Especialista</option>
+                            </select>
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_carrera" name="especialidad" required class="form-control-select">
+                                <option value="">Elige la especialidad</option>
+                                <option value="general">Medicina General</option>
+                                <option value="pediatria">Pediatría</option>
+                                <option value="cardiologia">Cardiología</option>
+                                <option value="laboratorio">Laboratorio Clínico</option>
+                            </select>
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha preferida para la cita:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Describe brevemente tus síntomas o dudas..." class="form-control-textarea"></textarea>
+                        </div>
+
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Acepto el aviso de privacidad y el tratamiento de datos médicos.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Enviar Solicitud de Cita
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONVENIOS / ALIANZAS MÉDICAS -->
+    <section class="convenios-section">
+        <div class="convenions-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">RESPALDO Y CONFIANZA</span>
+                <h2>Convenios y Aseguradoras</h2>
+                <p>Trabajamos con las principales instituciones y seguros de gastos médicos para tu mayor comodidad.</p>
+            </div>
+
+            <!-- LÍNEA 1 -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">🏥 GNP Seguros</div>
+                    <div class="convenio-card">🛡️ AXA Seguros</div>
+                    <div class="convenio-card">📋 MetLife México</div>
+                    <div class="convenio-card">🏢 Monterrey New York Life</div>
+                    <div class="convenio-card">⚡ Mapfre Salud</div>
+                    <div class="convenio-card">🌐 Bupa Healthcare</div>
+                    <!-- Duplicado -->
+                    <div class="convenio-card">🏥 GNP Seguros</div>
+                    <div class="convenio-card">🛡️ AXA Seguros</div>
+                    <div class="convenio-card">📋 MetLife México</div>
+                    <div class="convenio-card">🏢 Monterrey New York Life</div>
+                    <div class="convenio-card">⚡ Mapfre Salud</div>
+                    <div class="convenio-card">🌐 Bupa Healthcare</div>
+                </div>
+            </div>
+
+            <!-- LÍNEA 2 -->
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">💊 Farmacias del Ahorro</div>
+                    <div class="convenio-card">🧪 Laboratorios Chopo</div>
+                    <div class="convenio-card">🏥 Hospital General San José</div>
+                    <div class="convenio-card">⚙️ IMSS Convenios</div>
+                    <div class="convenio-card">🎓 Universidad Autónoma de Salud</div>
+                    <div class="convenio-card">📋 Sura Seguros</div>
+                    <!-- Duplicado -->
+                    <div class="convenio-card">💊 Farmacias del Ahorro</div>
+                    <div class="convenio-card">🧪 Laboratorios Chopo</div>
+                    <div class="convenio-card">🏥 Hospital General San José</div>
+                    <div class="convenio-card">⚙️ IMSS Convenios</div>
+                    <div class="convenio-card">🎓 Universidad Autónoma de Salud</div>
+                    <div class="convenio-card">📋 Sura Seguros</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>Clínica Médica Trauma Team
+                     &copy; 2026</p>
+                <p class="footer-author">Desarrollado para la Práctica de Desarrollo Web</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">ig</a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon" title="WhatsApp">💬</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube"> ▶</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
